@@ -42,16 +42,26 @@ A separate NLP workflow was used to analyse farmer sentiment from online agricul
 
 ## Dashboard
 
-The Streamlit dashboard presents the main findings in an interactive format. Users can explore:
+The project includes a fully interactive Streamlit dashboard designed to make agricultural insights accessible to non-technical users.
 
-- Irish wheat forecast trends
-- Cost fluctuations in wheat farming
-- Wheat farming area by Irish region
-- Wheat types over time
-- Worldwide wheat production, yield, and clustering
-- Country-level comparisons between Ireland, France, and the UK
+The dashboard consists of multiple interactive views, allowing users to explore data at different levels:
 
-The dashboard was designed with clarity and practical use in mind, using interactive filters, line charts, and choropleth maps to make the analysis easier to explore.
+- **Forecast Trends:** Visualises Irish wheat forecasts with selectable features
+- **Cost Analysis:** Tracks changes in farming costs over time with multi-line comparisons
+- **Regional Analysis:** Displays wheat farming area by region with interactive filtering
+- **Crop Breakdown:** Compares different wheat types (spring, winter, total cereals) over time
+- **Global View:** Animated choropleth map showing worldwide wheat production, yield, and clustering
+- **Country Comparison:** Allows users to compare Ireland, France, and the UK across key agricultural metrics
+
+### Interactivity Features
+
+- Dropdown menus for selecting features and metrics
+- Multi-select filters for country comparison
+- Toggleable visual elements to reduce clutter
+- Hover-based insights for precise data exploration
+- Time-based animation for global trends
+
+The dashboard was designed using principles of clarity and usability, enabling farmers and stakeholders to explore complex agricultural data intuitively.
 
 ## Key Outcomes
 
